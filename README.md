@@ -11,7 +11,7 @@ This project is a boilerplate for building website with Nextjs, Tailwindcss, Pos
 
 1. Clone Repository
 ```
-$ git clone https://github.com/windyaprilianispace/boilerplate_nextjs_tailwindcss_eslint_prettier
+$ git clone https://github.com/windyaprilianispace/boilerplate_nextjs_tailwindcss_eslint_prettier.git
 ```
 
 2. Install Node Module
