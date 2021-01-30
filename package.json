@@ -1,5 +1,5 @@
 {
-  "name": "profile-web",
+  "name": "Boilerplate Nextjs, Tailwindcss, ESlint, and Prettier",
   "version": "0.1.0",
   "private": true,
   "scripts": {
