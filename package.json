@@ -1,15 +1,32 @@
 {
-  "name": "Boilerplate Nextjs, Tailwindcss, ESlint, and Prettier",
+  "name": "profile-web",
   "version": "0.1.0",
   "private": true,
   "scripts": {
+    "lint": "eslint ./pages/** -c .eslintrc.json --fix --ext js,jsx",
+    "lint-watch": "esw --watch ./pages/** -c .eslintrc.json --fix",
     "dev": "next dev",
     "build": "next build",
     "start": "next start"
   },
   "dependencies": {
+    "autoprefixer": "^10.2.1",
     "next": "10.0.5",
+    "postcss": "^8.2.4",
     "react": "17.0.1",
-    "react-dom": "17.0.1"
+    "react-dom": "17.0.1",
+    "react-slick": "^0.28.0",
+    "tailwindcss": "^2.0.2"
+  },
+  "devDependencies": {
+    "babel-eslint": "^10.1.0",
+    "eslint": "^7.18.0",
+    "eslint-config-prettier": "^7.1.0",
+    "eslint-plugin-jsx-a11y": "^6.4.1",
+    "eslint-plugin-prettier": "^3.3.1",
+    "eslint-plugin-react": "^7.22.0",
+    "eslint-plugin-react-hooks": "^4.2.0",
+    "eslint-watch": "^7.0.0",
+    "prettier": "^2.2.1"
   }
 }
